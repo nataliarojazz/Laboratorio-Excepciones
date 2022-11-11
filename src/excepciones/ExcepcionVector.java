@@ -5,7 +5,7 @@ public class ExcepcionVector {
     public static void main(String[] args) {
         desborde();
     }
-    //metodo desborde, que evaluara la longitud del vector y mostrará la excepcion de ser necesiario
+    //metodo desborde, que evaluara la longitud del vector y mostrará la excepcion de ser necesario
     public static void desborde() {
         int v[] = new int[3];
         try {
