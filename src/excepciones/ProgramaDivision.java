@@ -24,7 +24,7 @@ public class ProgramaDivision {
             n = sc.nextInt();
             System.out.println("Digite el dividendo: ");
             div = sc.nextInt();
-            //hacemos la operacion
+            //hacemos la division
             res = n / div;
             //creamos la condicion para lanzar la excpecion por restriccion en el tamaño del numero
             if (n < 10 || div < 10) {
